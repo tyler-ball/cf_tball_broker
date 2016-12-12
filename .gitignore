@@ -1,0 +1,5 @@
+product/
+release/
+
+Gemfile.lock
+provisioning.out

@@ -1,0 +1,9 @@
+---
+applications:
+  - name: cf-tball-broker-app
+    type: app-broker
+    label: Tball Test App      # Package name for use in human-readable labels in OpsManager
+    path: .
+    # command: bundle install && bundle exec rackup -p $PORT
+    enable_global_access_to_plans: true
+    memory: 256M
